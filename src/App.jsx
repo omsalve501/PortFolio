@@ -40,6 +40,21 @@ export default function App(){
       <main>
         <section className="hero">
           <div className="container">
+            <div style={{textAlign: 'center', marginBottom: '2rem'}}>
+              <img 
+                src="/PortFolio/profile.png" 
+                alt="Omkar Salve" 
+                className="profile-pic"
+                style={{
+                  width: '150px',
+                  height: '150px',
+                  borderRadius: '50%',
+                  border: '3px solid #00e5ff',
+                  objectFit: 'cover',
+                  boxShadow: '0 0 20px rgba(0, 229, 255, 0.3)'
+                }}
+              />
+            </div>
             <h2>Hi, I'm <span className="accent">Omkar</span>.</h2>
             <p className="lead">Cybersecurity Analyst | Zscaler & Palo Alto Specialist | Zero Trust & Cloud Security Expert</p>
             <p className="actions">
